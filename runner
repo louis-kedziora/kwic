@@ -1,0 +1,72 @@
+#!/bin/bash
+gcc -Wall -g -std=c99 kwic4.c -o kwicexe
+./kwicexe < tests/in02.txt > temp.txt
+diff temp.txt tests/out02.txt
+
+./kwicexe < tests/in03.txt > temp.txt
+diff temp.txt tests/out03.txt
+
+./kwicexe < tests/in04.txt > temp.txt
+diff temp.txt tests/out04.txt
+
+./kwicexe < tests/in05.txt > temp.txt
+diff temp.txt tests/out05.txt
+
+./kwicexe < tests/in06.txt > temp.txt
+diff temp.txt tests/out06.txt
+
+./kwicexe < tests/in07.txt > temp.txt
+diff temp.txt tests/out07.txt
+
+./kwicexe < tests/in08.txt > temp.txt
+diff temp.txt tests/out08.txt
+
+./kwicexe < tests/in09.txt > temp.txt
+diff temp.txt tests/out09.txt
+
+./kwicexe < tests/in10.txt > temp.txt
+diff temp.txt tests/out10.txt
+
+./kwicexe < tests/in11.txt > temp.txt
+diff temp.txt tests/out11.txt
+
+./kwicexe < tests/in12.txt > temp.txt
+diff temp.txt tests/out12.txt
+
+./kwicexe < tests/in13.txt > temp.txt
+diff temp.txt tests/out13.txt
+
+./kwicexe < tests/in14.txt > temp.txt
+diff temp.txt tests/out14.txt
+
+./kwicexe < tests/in15.txt > temp.txt
+diff temp.txt tests/out15.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
